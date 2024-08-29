@@ -617,7 +617,7 @@ a {
 
 @media(max-width: 700px) {
   .text-boxc {
-    /* font-size: 1.60625rem; */
+    font-size: 1.5rem;
   }
 
   .text-boxp {
