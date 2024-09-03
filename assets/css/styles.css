@@ -384,7 +384,6 @@ a {
   opacity: 0;
 }
 
-/* Navigation for mobile devices */
 @media screen and (max-width: 1118px) {
   .nav__menu {
     position: absolute;
@@ -397,11 +396,13 @@ a {
     opacity: 0;
     transition: top .4s, opacity .3s;
   }
+
   .nav__menu::-webkit-scrollbar {
     width: 0;
   }
+
   .nav__list {
-    background-color: #b6b6b6eb;
+    background-color: var(--light-blue-color);
     padding-top: 1rem;
   }
 }
@@ -594,7 +595,8 @@ a {
   overflow: hidden;
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(22, 86, 91, 0.071)), url("../img/pool3.webp") center/cover no-repeat;
+  background:  linear-gradient(199deg, rgba(30, 38, 47, 0.577) 0%, rgba(255, 255, 255, 0.33) 100%),
+  url("../img/pool3.webp") center/cover no-repeat;
 }
 
 .home__container {
@@ -604,7 +606,7 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  row-gap: 3rem;
+  row-gap: 2rem;
 }
 
 .home__img {
@@ -652,7 +654,7 @@ a {
   text-decoration: none;
   color: var(--first-color-lighten);
   border-radius: 10px;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
   padding: 12px 34px;
   font-size: 0.9rem;
   background: var(--black-color);
@@ -733,6 +735,11 @@ h3 {
 
 .py-5 {
   padding: 5rem 0;
+}
+
+.py-5-5 {
+  padding: 5rem 0;
+  margin-bottom: -5rem;
 }
 
 .grid {
@@ -1819,6 +1826,7 @@ textarea::-webkit-scrollbar-thumb {
 
 .box-item i {
   cursor: pointer;
+  color: var(--royal-blue-dark);
 }
 
 .box-item i.fa-times-circle {
@@ -1854,9 +1862,7 @@ textarea::-webkit-scrollbar-thumb {
 @media (min-width: 1200px) {}
 
 .gallary__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  padding-bottom: 2rem;
 }
 
 .green {
@@ -1864,13 +1870,13 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .image__gallary {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: block;
   gap: 1rem;
 }
 
 .gallary__col {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   place-content: center;
   gap: 1rem;
 }
@@ -1893,11 +1899,11 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .gallary__content .section__subtitle {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 @media (max-width : 600px) {
-  .gallary__container {
-    grid-template-columns: repeat(1, 1fr);
+  .gallary__col {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

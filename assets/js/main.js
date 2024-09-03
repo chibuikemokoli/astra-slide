@@ -25,7 +25,6 @@ window.onscroll = function () {
     }
 };
 
-// ======= GET HTML ELEMENT ===================
 var imgs = Array.from(document.getElementsByClassName("portfolioImg"));
 var lightBoxContainer = document.getElementById("lightBoxContainer");
 var boxContent = document.getElementById("boxContent");
@@ -33,7 +32,7 @@ var closeBtn = document.getElementById("close");
 var next = document.getElementById("next");
 var prev = document.getElementById("prev");
 var currentIndex = 0;
-//--------------------- EVENT LISTENERS----------------------
+
 for (let i = 0; i < imgs.length; i++) {
     imgs[i].addEventListener("click", function (e) {
         showLightBox(i);
@@ -59,7 +58,7 @@ document.addEventListener("click", function (e) {
         hideLightBox();
     }
 });
-//--------------------- Functions --------------------
+
 function showLightBox(index) {
     var picSrc = imgs[index].getAttribute("src");
     boxContent.style.cssText = `background-image:url(${picSrc})`;
@@ -78,6 +77,7 @@ function showNext() {
     var picSrc = imgs[currentIndex].getAttribute("src");
     boxContent.style.cssText = `background-image:url(${picSrc})`;
 }
+
 function showPrev() {
     currentIndex--;
     if (currentIndex < 0) {
