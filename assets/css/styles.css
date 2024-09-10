@@ -767,7 +767,7 @@ h3 {
 }
 
 .trip {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
   padding: 20px 0;
 }
 
@@ -788,6 +788,11 @@ h3 {
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.trip__card img {
+  height: 300px;
+  object-fit: cover;
 }
 
 .trip__details {
