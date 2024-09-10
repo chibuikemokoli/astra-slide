@@ -3,8 +3,8 @@
 :root {
   --header-height: 3.5rem;
 
-  --blue-gradient: linear-gradient(9deg, hsl(215, 85%, 59%), hsl(0, 0%, 0%));
-  --blue-gradient-2: linear-gradient(9deg, hsl(0, 0%, 0%), hsl(215, 85%, 59%));
+  --blue-gradient: linear-gradient(9deg, #3D52A0, hsl(0, 0%, 0%));
+  --blue-gradient-2: linear-gradient(9deg, hsl(0, 0%, 0%), #3D52A0);
   --blue-gradient-3: linear-gradient(9deg, hsl(215, 85%, 59%), hsl(0, 0%, 100%));
   --blue-gradient-4: linear-gradient(9deg, hsl(0, 0%, 100%), hsl(215, 85%, 59%));
   
@@ -24,7 +24,7 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
   
   /*Color mode HSL(hue, saturation, lightness)*/
-  --light-blue-color: hsl(220, 82%, 48%);
+  --light-blue-color: #3D52A0;
   --black-color: hsl(220, 24%, 12%);
   --black-color-light: hsl(220, 24%, 15%);
   --black-color-lighten: hsl(220, 20%, 18%);
@@ -97,7 +97,7 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 
-  --primary-color: #3685fb;
+  --primary-color: #3D52A0;
   --primary-color-dark: #2f73d9;
   --secondary-color: #fafcff;
   --text-dark: #0d213f;
@@ -127,7 +127,7 @@
 }
 
 .blue-deep {
-  background: var(--royal-blue-dark);
+  background: #3D52A0;
 }
 
 .reviews-s {
@@ -792,16 +792,11 @@ h3 {
 
 .book__now {
   padding: 0.5rem 1.5rem;
-  color: var(--primary-color);
   outline: none;
   border: 1px solid var(--primary-color);
   border-radius: 5rem;
-  background-color: transparent;
   cursor: pointer;
   transition: 0.3s;
-}
-
-.book__now:hover {
   color: var(--extra-light);
   background-color: var(--primary-color);
 }
@@ -1363,14 +1358,14 @@ h3 {
 }
 
 .footer {
-  background: var(--royal-blue-dark);
+  background: #000b35;
 }
 
 .footer__container {
   display: grid;
   padding: 80px 0;
   grid-template-columns: 400px repeat(3, 1fr);
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 
 .footer__col h3 {
@@ -1480,19 +1475,6 @@ h3 {
 
   .ql {
     text-align: left;
-  }
-}
-
-.tratr-bgg {
-  background: url("../img/pool2.jpg") center center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 25vh;
-}
-
-@media only screen and (max-width: 700px) {
-  .tratr-bgg {
-    background-attachment: scroll;
   }
 }
 
@@ -1773,7 +1755,6 @@ textarea::-webkit-scrollbar-thumb {
 
 .item .caption p {
   font-size: 14px;
-
 }
 
 #lightBoxContainer {
@@ -1943,7 +1924,7 @@ a {
   height: 80%;
   /* --primary-color: #f3eae5; */
     /* --text-dark: #2c2724; */
-  background-color: #f3eae5;
+  background-color: #ADBBDA;
   border-radius: 1rem;
   z-index: -1;
 
@@ -2025,7 +2006,7 @@ a {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-dark);
-  background-color: #f3eae5;
+  background-color: #ADBBDA;
   border: 10px solid var(--white);
   border-bottom: none;
 }
