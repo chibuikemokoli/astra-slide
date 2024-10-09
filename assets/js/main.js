@@ -25,6 +25,61 @@ window.onscroll = function () {
     }
 };
 
+function isValidEmail(email) {
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return emailPattern.test(email);
+}
+
+const scriptURL = 'https://script.google.com/macros/s/~~~~/exec';
+const form = document.forms['newsletter'];
+const msg = document.getElementById("msg");
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    const userInput = form.email.value;
+
+    if (!isValidEmail(userInput)) {
+        msg.innerHTML = "Invalid email address.";
+        setTimeout(function () {
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+        return;
+    }
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            if (response.ok) {
+                msg.innerHTML = "Message Sent Successfully!";
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+                // window.location.href = "success.html";
+            } else {
+                console.error('Error!', response.statusText);
+            }
+        })
+        .catch(error => console.error('Error!', error.message));
+});
+
+function delayer() {
+    setTimeout(downLoad, 500)
+}
+
+function downLoad() {
+    if (document.all) {
+        document.all["preloader"].style.display = "none";
+        document.all["layer2"].style.display = "block";
+    } else if (document.getElementById) {
+        node = document.getElementById("preloader").style.display = 'none';
+
+        node = document.getElementById("layer2").style.visibility = 'visible';
+
+    }
+}
+
 var imgs = Array.from(document.getElementsByClassName("portfolioImg"));
 var lightBoxContainer = document.getElementById("lightBoxContainer");
 var boxContent = document.getElementById("boxContent");
