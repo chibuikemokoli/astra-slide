@@ -30,7 +30,7 @@ function isValidEmail(email) {
     return emailPattern.test(email);
 }
 
-const scriptURL = 'https://script.google.com/macros/s/~~~~/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwGBo54Kviagl0kyspcmCwMBA3QvhbR5vB5mj0s_PujXVmAvJcxwjMMtVaha-1fnzn-uA/exec';
 const form = document.forms['newsletter'];
 const msg = document.getElementById("msg");
 

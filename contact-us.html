@@ -14,7 +14,7 @@
     <meta name="layoutmode" content="fitscreen/standard">
     <meta name="imagemode" content="force">
     <meta name="language" content="English">
-    <meta name="theme-color" content="#3D52A0" />
+    <meta name="theme-color" content="hsl(247, 35%, 41%)" />
     <meta name="revisit-after" content="20 days">
     <meta name="revised" content="Astraslide, 12/12/2023" />
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -42,36 +42,41 @@
 <section>
     <div id="preloader">
         <div id="layer1" class="layer1_class" style="background-color: rgba(0,0,0,0);">
-            <img alt="" src="assets/img/preloader.jpg" />
+            <img alt="" src="assets/img/image.png" />
         </div>
     </div>
 </section>
 
 <body onload="delayer()" class="layer2_class" id="layer2">
-    <header class="header blue">
+    <header class="header">
         <nav class="nav container">
             <div class="nav__data">
-                <a href="index.html" class="nav__logo">
-                    <i class="ri-planet-line"></i> Astraslide
+                <a href="/" class="nav__logo">
+                    ASTRA<span class="line">SLIDE</span>
+                    <img src="assets/img/image.png" alt="">
                 </a>
-        
+
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-line nav__burger"></i>
                     <i class="ri-close-line nav__close"></i>
                 </div>
             </div>
-        
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li><a href="index.html" class="nav__link">Home</a></li>
-        
+                    <li><a href="/" class="nav__link">Home</a></li>
+
                     <li><a href="about-astraslide.html" class="nav__link">Company</a></li>
-        
+
                     <li><a href="products.html" class="nav__link">Products</a></li>
-        
+
                     <li><a href="gallery.html" class="nav__link">Gallery</a></li>
-        
-                    <li><a href="contact-us.html" class="nav__link">Contact</a></li>
+
+                    <div class="margin-bottom margin-medium-2">
+                        <li><a href="contact-us" class="button-2" id="">Contact Us</a></li>
+                    </div>
+
+                    <br>
                 </ul>
             </div>
         </nav>
@@ -172,7 +177,13 @@
         <div class="container">
             <div class="section__container footer__container">
                 <div class="footer__col">
-                    <h3>Astra<span>slide</span></h3>
+                    <!-- <h3>Astra<span>slide</span></h3> -->
+                    <a href="/" class="nav__logo">
+                        ASTRA<span class="line">SLIDE</span>
+                        <img src="assets/img/image.png" alt="">
+                    </a>
+                    <br>
+                    <br>
                     <p class="">
                         Thank you for choosing Astraslide! We're dedicated to keeping your pool beautiful and your
                         satisfaction guaranteed.

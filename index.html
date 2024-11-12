@@ -11,7 +11,7 @@
       <meta name="layoutmode" content="fitscreen/standard">
       <meta name="imagemode" content="force">
       <meta name="language" content="English">
-      <meta name="theme-color" content="#3D52A0" />
+      <meta name="theme-color" content="hsl(247, 35%, 41%)" />
       <meta name="revisit-after" content="20 days">
       <meta name="revised" content="Astraslide, 12/12/2023" />
       <meta name="referrer" content="no-referrer-when-downgrade">
@@ -37,7 +37,7 @@
    <section>
       <div id="preloader">
          <div id="layer1" class="layer1_class" style="background-color: rgba(0,0,0,0);">
-            <img alt="" src="assets/img/preloader.jpg" />
+            <img alt="" src="assets/img/image.png" />
          </div>
       </div>
    </section>
@@ -47,7 +47,8 @@
          <nav class="nav container">
             <div class="nav__data">
                <a href="/" class="nav__logo">
-                  <i class="ri-planet-line"></i> Astraslide
+                  ASTRA<span class="line">SLIDE</span>
+                  <img src="assets/img/image.png" alt="">
                </a>
                
                <div class="nav__toggle" id="nav-toggle">
@@ -66,7 +67,11 @@
 
                   <li><a href="gallery.html" class="nav__link">Gallery</a></li>
 
-                  <li><a href="contact-us.html" class="nav__link">Contact</a></li>
+                  <div class="margin-bottom margin-medium-2">
+                     <li><a href="contact-us" class="button-2" id="">Contact Us</a></li>
+                  </div>
+
+                  <br>
                </ul>
             </div>
          </nav>
@@ -87,11 +92,13 @@
 
             <div class="content">
                <h4>24 Hrs | Available</h4>
-               <h2>Simple Pool Setup</h2>
+               <h2>Top Quality</h2>
                <h3>Elevate your pool experience!</h3>
                <p>
-                  Ready to transform your backyard into a serene oasis? Dive into excellence with AstraSlide, where custom-designed pools
-                  and top-tier equipment come together to create the ultimate swimming experience. Our commitment to quality and safety
+                  Dive into excellence with AstraSlide, where custom-designed pools
+                  and top-tier equipment come together to create the ultimate swimming experience. 
+                  <br>
+                  Our commitment to quality and safety
                   ensures that every moment in your pool is perfect. Take the plunge and let us help you create your dream pool today!
                </p>
             </div>
@@ -196,11 +203,11 @@
          </center>
       </section>
 
-      <section class="blue-gradient">
+      <section class="">
          <div class="container">
             <section class="about-c">
-               <h2 class="h2 about-title">Why Choose Astraslide?</h2>
-               <ul class="about-list">
+               <h2 class="reviews__title title">Why We are a Top Choice for You and Your Pool Needs</h2>
+               <ul class="about-list blue-gradient">
                   <li class="about-item">
                      <div class="about-card">
 
@@ -320,40 +327,23 @@
       
                <ul class="stats-list">
                   <li class="stats-card">
-                     <p class="h3 stats-title">873</p>
+                     <p class="h3 stats-title">73</p>
       
                      <p class="stats-text">Satisfied Clients</p>
                   </li>
       
                   <li class="stats-card">
-                     <p class="h3 stats-title">1,258</p>
+                     <p class="h3 stats-title">258</p>
       
                      <p class="stats-text">Equipment Sold</p>
                   </li>
       
                   <li class="stats-card">
-                     <p class="h3 stats-title">549</p>
+                     <p class="h3 stats-title">49</p>
       
                      <p class="stats-text">Deliveries </p>
                   </li>
                </ul>
-            </div>
-         </div>
-      </section>
-
-      <section class="project container">
-         <div class="project__bg">
-            <div class="project__container grid-1">
-               <div class="project__data">
-                  <h2 class="project__title">Astraslide</h2>
-                  <p class="project__description">Upgrade your pool with AstraSlide's premium equipment! Enjoy crystal-clear water and unmatched performance. Shop now and
-                  experience the difference—quality, and innovation await!</p>
-                  <a href="contact-us.html" class="button button--flex button--white">Shop Now 
-                     <i class="ri-question-answer-fill project__icon button__icon"></i>
-                  </a>
-               </div>
-      
-               <img loading="lazy" src="assets/img/landing.jpg" alt="" class="project__img hero-banner">
             </div>
          </div>
       </section>
@@ -437,31 +427,65 @@
          </div>
       </section>
 
-      <section class="page__subscribe subscribe">
-         <div class="subscribe__container">
-            <div class="subscribe__header">
-               <h2 class="subscribe__title title title_center">Get Our Newsletter</h2>
-               <div class="subscribe__sub-title">To join the Astraslide community</div>
-            </div>
-
-            <form action="" name="newsletter" method="post" class="subscribe__form form-subscribe">
-               <div class="form-subscribe__content">
-                  <input type="email" name="Email" id="email" placeholder="Your email address" class="form-subscribe__input" required>
+      <section class="project container">
+         <div class="project__bg">
+            <div class="project__container grid-1">
+               <div class="project__data">
+                  <br>
+                  <a href="/" class="nav__logo">
+                     ASTRA<span class="line">SLIDE</span>
+                     <img src="assets/img/image.png" alt="">
+                  </a>
+                  <br>
+                  <br>
+                  <h2 class="project__description">Get exclusive pool tips and special offers!</h2>
                </div>
-               
-               <button type="submit" class="form-subscribe__button">Send now</button>
-            </form>
-            <center>
-               <span id="msg"></span>
-            </center>
+      
+               <section class="page__subscribe subscribe">
+                  <div class="subscribe__container">
+                     <div class="subscribe__header">
+                        <!-- m  -->
+                     </div>
+      
+                     <form action="" name="newsletter" method="post" class="subscribe__form form-subscribe">
+                        <div class="form-subscribe__content">
+                           <input type="email" name="Email" id="email" placeholder="Your email address"
+                              class="form-subscribe__input" required>
+                        </div>
+      
+                        <button type="submit" class="form-subscribe__button">Begin Today</button>
+                     </form>
+                     <center>
+                        <span id="msg"></span>
+                     </center>
+                  </div>
+               </section>
+            </div>
          </div>
+      </section>
+
+      <br>
+      <br>
+      <br>
+      <section class="">
+         <ul class="about-lists">
+            <img src="assets/img/guitar.jpg" alt="">
+            <img src="assets/img/landing.jpg" alt="">
+            <img src="assets/img/landingg.jpg" alt="">
+         </ul>
       </section>
 
       <footer class="footer">
          <div class="container">
             <div class="section__container footer__container">
                <div class="footer__col">
-                  <h3>Astra<span>slide</span></h3>
+                  <!-- <h3>Astra<span>slide</span></h3> -->
+                  <a href="/" class="nav__logo">
+                     ASTRA<span class="line">SLIDE</span>
+                     <img src="assets/img/image.png" alt="">
+                  </a>
+                  <br>
+                  <br>
                   <p class="">
                      Thank you for choosing Astraslide! We're dedicated to keeping your pool beautiful and your
                      satisfaction guaranteed.
