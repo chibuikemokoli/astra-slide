@@ -144,6 +144,11 @@ body {
   border-radius: 1rem;
 }
 
+.blue-gradient-2 {
+  background: #c6bbea;
+  border-radius: 1rem;
+}
+
 ul {
   list-style: none;
   /* Color highlighting when pressed on mobile devices */
@@ -828,7 +833,8 @@ h3 {
 }
 
 .rating {
-  color: goldenrod;
+  visibility: hidden;
+  /* color: goldenrod; */
 }
 
 .booking__price {
@@ -2424,3 +2430,7 @@ a {
   font-weight: 600;
 }
 
+.about-us-3 {
+  background: #538029;
+  /* padding-top: 6.5rem; */
+}
