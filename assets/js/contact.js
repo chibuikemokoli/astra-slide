@@ -1,18 +1,18 @@
 /*=============== SHOW MENU ===============*/
-const showMenu = (toggleId, navId) =>{
-   const toggle = document.getElementById(toggleId),
-         nav = document.getElementById(navId)
+const showMenu = (toggleId, navId) => {
+    const toggle = document.getElementById(toggleId),
+        nav = document.getElementById(navId)
 
-   toggle.addEventListener('click', () =>{
-       // Add show-menu class to nav menu
-       nav.classList.toggle('show-menu')
+    toggle.addEventListener('click', () => {
+        // Add show-menu class to nav menu
+        nav.classList.toggle('show-menu')
 
-       // Add show-icon to show and hide the menu icon
-       toggle.classList.toggle('show-icon')
-   })
+        // Add show-icon to show and hide the menu icon
+        toggle.classList.toggle('show-icon')
+    })
 }
 
-showMenu('nav-toggle','nav-menu');
+showMenu('nav-toggle', 'nav-menu');
 
 var className = "inverted";
 var scrollTrigger = 170;
@@ -25,8 +25,8 @@ window.onscroll = function () {
     }
 };
 
-const scriptURL = 'https://script.google.com/macros/s/~~~~~/exec'
-const form = document.forms['submit-to-google-sheet']
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxpRp3S6NKweoNn5unjNpS0YAYgWbtj6wnsaGEuIPJFHrMY2YK4gEoZlEB3sEOtnyVh/exec'
+const form = document.forms['astraslide-contact']
 const msg = document.getElementById("msg")
 
 form.addEventListener('submit', e => {
@@ -39,15 +39,13 @@ form.addEventListener('submit', e => {
                     msg.innerHTML = ""
                 }, 5000)
                 form.reset()
-                // window.location.href = "thank-you.html";
+                window.location.href = "thank-you";
             } else {
                 console.error('Error!', response.statusText);
             }
         })
         .catch(error => console.error('Error!', error.message));
-    }
-);
-
+});
 
 function delayer() {
     setTimeout(downLoad, 500)
