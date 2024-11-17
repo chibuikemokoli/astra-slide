@@ -833,8 +833,8 @@ h3 {
 }
 
 .rating {
-  visibility: hidden;
-  /* color: goldenrod; */
+  /* visibility: hidden; */
+  color: goldenrod;
 }
 
 .booking__price {
@@ -1149,7 +1149,7 @@ h3 {
 
 .project__bg {
   border-radius: 1rem;
-  background: hsl(219, 29%, 57%);
+  background: var(--astra-asher);
   /* box-shadow: 0px 100px 80px rgba(109, 71, 248, 0.07), 0px 64.8148px 46.8519px rgba(103, 71, 248, 0.053), 0px 38.5185px 25.4815px rgba(92, 71, 248, 0.043), 0px 20px 13px rgba(92, 71, 248, 0.035), 0px 8.14815px 6.51852px rgba(92, 71, 248, 0.027), 0px 1.85185px 3.14815px rgba(109, 71, 248, 0.017); */
   /* padding-top: 3rem; */
 }
