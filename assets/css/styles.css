@@ -1445,6 +1445,16 @@ h3 {
   }
 }
 
+.footer {
+  /* background: #000b35; */
+  /* background: var(--astra-bluer); */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../img/footer-bg.png') center/cover no-repeat fixed; */
+  background-image: url("../img/footer-bg.png");
+  background-color: var(--astra-bluer);
+  /* position: relative; */
+  /* background-color: #00271d; */
+}
+
 .footer-reviews__partners {
   display: none;
   /* flex: 1 1 auto; */
