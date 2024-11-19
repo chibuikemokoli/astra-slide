@@ -125,6 +125,10 @@
   background: var(--astra-blue);
 }
 
+.blue-light {
+  background: #5db8d7;
+}
+
 .landing-text {
   color: #000;
 }
@@ -747,6 +751,10 @@ h3 {
 
 .py-7 {
   padding: 7rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
 }
 
 .py-3 {
@@ -2473,4 +2481,54 @@ a {
 .about-us-3 {
   background: #538029;
   /* padding-top: 6.5rem; */
+}
+
+
+.gallarey__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 1rem; */
+}
+
+.green {
+    background-color: var(--cl-4);
+}
+
+.image__gallarey {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.gallarey__col {
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+}
+
+.gallarey__col img {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gallarey__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallarey__content>div {
+    max-width: 400px;
+}
+
+.gallarey__content .section__subtitle {
+    margin-bottom: 2rem;
+}
+
+@media (max-width : 600px) {
+    .gallarey__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
