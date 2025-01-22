@@ -871,6 +871,7 @@ h3 {
 }
 
 .book__now a {
+  font-weight: 500;
   color: var(--white);
 }
 
