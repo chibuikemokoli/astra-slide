@@ -865,6 +865,7 @@ h3 {
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
+  font-weight: 500;
   color: var(--extra-light);
   background-color: var(--primary-color);
 }
