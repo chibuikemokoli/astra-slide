@@ -1522,16 +1522,16 @@ h3 {
 }
 
 .footer::before {
-  padding-top: 4rem;
-  margin-bottom: -4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  content: "ASTRASLIDE";
+  /* padding-top: 4rem; */
+  /* margin-bottom: -4rem; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* content: "ASTRASLIDE"; */
   /* position: absolute; */
-  bottom: 5rem;
-  right: 20rem;
+  /* bottom: 5rem; */
+  /* right: 20rem; */
   font-size: 4rem;
   font-weight: 700;
   /* line-height: 7rem; */
