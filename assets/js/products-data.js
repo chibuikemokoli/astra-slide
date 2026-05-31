@@ -75,9 +75,9 @@ const productsData = {
         `,
             category: 'fittings',
             rating: 4.5,
-            image: 'https://astra-slide.vercel.app/assets/img/products/floor-drain.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/floor-drain.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Anti-vortex safety design', 'Flush-mount installation', 'UV-resistant ABS']
         },
