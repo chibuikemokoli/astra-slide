@@ -165,3 +165,22 @@ function isValidEmail(email) {
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailPattern.test(email);
 }
+
+(function () {
+    const url = new URL(window.location.href);
+
+    const remove = ["_gl", "_ga", "_gcl_au", "fbclid", "utm_source", "utm_medium"];
+
+    let changed = false;
+
+    remove.forEach(p => {
+        if (url.searchParams.has(p)) {
+            url.searchParams.delete(p);
+            changed = true;
+        }
+    });
+
+    if (changed) {
+        window.history.replaceState({}, document.title, url.pathname);
+    }
+})();
