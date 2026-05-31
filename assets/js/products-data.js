@@ -107,9 +107,9 @@ const productsData = {
             `,
             category: 'fittings',
             rating: 4.4,
-            image: 'https://astra-slide.vercel.app/assets/img/products/flange.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/flange.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Watertight seal', 'Rubber gasket included', 'Chemical & UV resistant']
         },
@@ -138,9 +138,9 @@ const productsData = {
         `,
             category: 'fittings',
             rating: 4.6,
-            image: 'https://astra-slide.vercel.app/assets/img/products/long-throat-skimmer.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/long-throat-skimmer.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['30% more efficient skimming', 'Auto-adjusting weir door', 'Tool-free basket removal']
         },
@@ -169,9 +169,9 @@ const productsData = {
         `,
             category: 'fittings',
             rating: 4.4,
-            image: 'https://astra-slide.vercel.app/assets/img/products/water-bar.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/water-bar.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['360° swivel nozzle', 'Flush-wall mount', 'Chemical & UV resistant']
         },
@@ -194,9 +194,9 @@ const productsData = {
         `,
             category: 'fittings',
             rating: 4.5,
-            image: 'https://astra-slide.vercel.app/assets/img/products/pool-regulator.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/pool-regulator.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Automatic water level control', 'Protects pump from dry-running', 'Virtually maintenance-free']
         },
@@ -225,9 +225,9 @@ const productsData = {
         `,
             category: 'fittings',
             rating: 4.4,
-            image: 'https://astra-slide.vercel.app/assets/img/products/inlet-fitting.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/inlet-fitting.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['360° swivel eyeball', 'UV-resistant ABS', 'Straight & angled variants']
         },
@@ -256,9 +256,9 @@ const productsData = {
         `,
             category: 'fittings',
             rating: 4.7,
-            image: 'https://astra-slide.vercel.app/assets/img/products/phoenix-tilt-nozzle.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/phoenix-tilt-nozzle.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Tilt-and-lock directional control', 'Eliminates dead zones', 'UV-stabilised ABS']
         },
@@ -295,9 +295,9 @@ const productsData = {
         `,
             category: 'pumps-filters',
             rating: 4.8,
-            image: 'https://astra-slide.vercel.app/assets/img/products/swimming-pool-pump.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/swimming-pool-pump.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Energy efficient', 'Quiet operation', 'Pre-filter basket included']
         },
@@ -327,9 +327,9 @@ const productsData = {
         `,
             category: 'pumps-filters',
             rating: 4.6,
-            image: 'https://astra-slide.vercel.app/assets/img/products/combo-filter-pump.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/combo-filter-pump.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['All-in-one system', '6-position multi-port valve', 'Plug-and-play installation']
         },
@@ -360,9 +360,9 @@ const productsData = {
         `,
             category: 'pumps-filters',
             rating: 4.3,
-            image: 'https://astra-slide.vercel.app/assets/img/products/filter-cover.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/filter-cover.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Pressure-tight seal', 'UV-stabilised ABS', 'Tool-free access']
         },
@@ -393,9 +393,9 @@ const productsData = {
         `,
             category: 'pumps-filters',
             rating: 4.5,
-            image: 'https://astra-slide.vercel.app/assets/img/products/filter-media.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/filter-media.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Glass filters to 5 microns', 'Fewer backwashes needed', 'Up to 5-year lifespan']
         },
@@ -418,9 +418,9 @@ const productsData = {
         `,
             category: 'pumps-filters',
             rating: 4.4,
-            image: 'https://astra-slide.vercel.app/assets/img/products/combo-vacuum-plate.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/combo-vacuum-plate.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Airtight suction seal', 'No separate pump needed', 'Universal skimmer fit']
         },
@@ -443,9 +443,9 @@ const productsData = {
         `,
             category: 'pumps-filters',
             rating: 4.2,
-            image: 'https://astra-slide.vercel.app/assets/img/products/combo-ring.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/combo-ring.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Precision-moulded fit', 'Prevents air ingress', 'Easy slide-and-lock install']
         },
@@ -475,8 +475,9 @@ const productsData = {
             category: 'pumps-filters',
             rating: 4.3,
             image: 'https://astra-slide.vercel.app/assets/img/products/combo-bag.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/combo-bag.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Washable & reusable', 'Extends media lifespan', 'Fine & standard mesh options']
         },
@@ -509,9 +510,9 @@ const productsData = {
         `,
             category: 'cleaning',
             rating: 4.4,
-            image: 'https://astra-slide.vercel.app/assets/img/products/vacuum-hose.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/vacuum-hose.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Kink-resistant', 'Swivel cuff fittings', '6m / 9m / 12m options']
         },
@@ -540,9 +541,9 @@ const productsData = {
         `,
             category: 'cleaning',
             rating: 4.7,
-            image: 'https://astra-slide.vercel.app/assets/img/products/anodized-vacuum-head.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/anodized-vacuum-head.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Hard-anodised aluminium', '360° swivel neck', 'Rotating rubber wheels']
         },
@@ -572,9 +573,9 @@ const productsData = {
         `,
             category: 'cleaning',
             rating: 4.4,
-            image: 'https://astra-slide.vercel.app/assets/img/products/swimming-pool-brush.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/swimming-pool-brush.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Surface-safe nylon bristles', 'Angled aluminium back', 'Curved corner model available']
         },
@@ -603,9 +604,9 @@ const productsData = {
         `,
             category: 'cleaning',
             rating: 4.6,
-            image: 'https://astra-slide.vercel.app/assets/img/products/heavy-duty-algae-brush.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/heavy-duty-algae-brush.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Stainless steel bristles', 'Reinforced aluminium head', '18" & 24" sizes']
         },
@@ -636,9 +637,9 @@ const productsData = {
         `,
             category: 'cleaning',
             rating: 4.5,
-            image: 'https://astra-slide.vercel.app/assets/img/products/swimming-pool-net.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/swimming-pool-net.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Deep-bag design', 'Anodised aluminium frame', 'Fine & coarse mesh options']
         },
@@ -670,9 +671,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.5,
-            image: 'https://astra-slide.vercel.app/assets/img/products/conduit-light.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/conduit-light.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['IP68 waterproof', 'Complete electrical isolation', '12V low voltage']
         },
@@ -704,9 +705,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.7,
-            image: 'https://astra-slide.vercel.app/assets/img/products/underwater-surface-light.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/underwater-surface-light.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['IP68 waterproof', '120° wide beam', 'RGB colour-changing option']
         },
@@ -736,9 +737,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.6,
-            image: 'https://astra-slide.vercel.app/assets/img/products/pool-light-transformer.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/pool-light-transformer.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['220V to 12V step-down', 'IP44 weatherproof enclosure', 'CE / RoHS certified']
         },
@@ -770,9 +771,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.8,
-            image: 'https://astra-slide.vercel.app/assets/img/products/underwater-led-bulb.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/underwater-led-bulb.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['80% energy saving', '50,000hr lifespan', 'Direct PAR56 replacement']
         },
@@ -802,9 +803,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.5,
-            image: 'https://astra-slide.vercel.app/assets/img/products/3-eyed-led-fountain-light.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/3-eyed-led-fountain-light.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Full RGB spectrum', 'IP68 waterproof', '12V low voltage']
         },
@@ -834,9 +835,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.6,
-            image: 'https://astra-slide.vercel.app/assets/img/products/6-eyed-led-fountain-light.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/6-eyed-led-fountain-light.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['6-point LED array', 'Full RGB spectrum', 'IP68 waterproof']
         },
@@ -866,9 +867,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.7,
-            image: 'https://astra-slide.vercel.app/assets/img/products/9-eyed-led-fountain-light.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/9-eyed-led-fountain-light.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['9-point LED array', 'Programmable colour modes', 'IP68 waterproof']
         },
@@ -901,9 +902,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.9,
-            image: 'https://astra-slide.vercel.app/assets/img/products/stainless-steel-waterfall.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/stainless-steel-waterfall.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Grade 304 stainless steel', 'Laminar water sheet', 'Optional RGB LED lighting']
         },
@@ -935,9 +936,9 @@ const productsData = {
         `,
             category: 'lighting',
             rating: 4.8,
-            image: 'https://astra-slide.vercel.app/assets/img/products/acrylic-waterfall.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/acrylic-waterfall.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Backlit LED effect', 'UV-stabilised acrylic', 'Lightweight installation']
         },
@@ -971,9 +972,9 @@ const productsData = {
         `,
             category: 'chemicals',
             rating: 4.6,
-            image: 'https://astra-slide.vercel.app/assets/img/products/chlorine-feeder.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/chlorine-feeder.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Adjustable dial dosing', 'In-line or offline install', 'Chemical-resistant body']
         },
@@ -1004,9 +1005,9 @@ const productsData = {
         `,
             category: 'chemicals',
             rating: 4.4,
-            image: 'https://astra-slide.vercel.app/assets/img/products/swimming-pool-floater.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/swimming-pool-floater.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Zero installation', '6-setting vent control', 'UV-resistant polypropylene']
         },
@@ -1039,9 +1040,9 @@ const productsData = {
         `,
             category: 'chemicals',
             rating: 4.3,
-            image: 'https://astra-slide.vercel.app/assets/img/products/corner-tile.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/corner-tile.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['Radius coved profile', 'Algae-resistant glaze', 'Vitrified ceramic']
         },
@@ -1079,9 +1080,9 @@ const productsData = {
         `,
             category: 'heating',
             rating: 4.7,
-            image: 'https://astra-slide.vercel.app/assets/img/products/swimming-pool-heater.jpg',
+            image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
-                'https://astra-slide.vercel.app/assets/img/products/swimming-pool-heater.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
             ],
             features: ['±1°C digital thermostat', 'Heat pump & electric options', 'Titanium or stainless exchanger']
         },
