@@ -117,7 +117,7 @@ function createProductCard(product) {
         : product.description.replace(/<[^>]*>/g, "").slice(0, 120) + "...";
 
     card.innerHTML = `
-        <a href="${product.id}" class="product-card-link">
+        <a href="/shop/${product.id}" class="product-card-link">
             <img src="${product.image}" alt="${product.title}" class="product-image" loading="lazy">
             <div class="product-info">
                 <h3 class="product-title">${product.title}</h3>

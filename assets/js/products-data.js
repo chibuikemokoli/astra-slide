@@ -86,25 +86,25 @@ const productsData = {
             id: 'flange',
             title: 'Flange',
             description: `
-        <div>
-            <p>Precision-moulded connection component that secures fittings, skimmers, and lights firmly to pool walls with a watertight seal. Built from chemically resistant ABS plastic — withstands constant water contact, UV exposure, and pool chemical environments.</p>
-            <p>Available in:</p>
-            <div class="cities-grid">
-                <div class="city-pill" style="background-color: #EFF6FF;">1.5"</div>
-                <div class="city-pill" style="background-color: #EFF6FF;">2"</div>
-                <div class="city-pill" style="background-color: #EFF6FF;">2.5"</div>
-            </div>
-            <br>
-            <p>Features:</p>
-            <ul>
-                <li>Creates a leak-proof seal at every pool wall penetration point</li>
-                <li>Compatible with skimmer bodies, inlets, lights, and drain fittings</li>
-                <li>Simple bolt-on installation — no specialist tools required</li>
-                <li>Resistant to chlorine, saltwater, and UV radiation</li>
-                <li>Rubber gasket included | Operating temp: up to 50°C</li>
-            </ul>
-        </div>
-        `,
+                <div>
+                    <p>Precision-moulded connection component that secures fittings, skimmers, and lights firmly to pool walls with a watertight seal. Built from chemically resistant ABS plastic — withstands constant water contact, UV exposure, and pool chemical environments.</p>
+                    <p>Available in:</p>
+                    <div class="cities-grid">
+                        <div class="city-pill" style="background-color: #EFF6FF;">1.5"</div>
+                        <div class="city-pill" style="background-color: #EFF6FF;">2"</div>
+                        <div class="city-pill" style="background-color: #EFF6FF;">2.5"</div>
+                    </div>
+                    <br>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Creates a leak-proof seal at every pool wall penetration point</li>
+                        <li>Compatible with skimmer bodies, inlets, lights, and drain fittings</li>
+                        <li>Simple bolt-on installation — no specialist tools required</li>
+                        <li>Resistant to chlorine, saltwater, and UV radiation</li>
+                        <li>Rubber gasket included | Operating temp: up to 50°C</li>
+                    </ul>
+                </div>
+            `,
             category: 'fittings',
             rating: 4.4,
             image: 'https://astra-slide.vercel.app/assets/img/products/flange.jpg',
