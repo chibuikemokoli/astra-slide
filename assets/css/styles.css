@@ -2367,17 +2367,17 @@ select {
 }
 
 .slide1 {
-  background-image: url('https://astra-slide.vercel.app/img/new-1.jpeg');
+  background-image: url('https://astra-slide.vercel.app/assets/img/new-1.jpeg');
   animation-delay: 0s;
 }
 
 .slide2 {
-  background-image: url('https://astra-slide.vercel.app/img/new-2.jpeg');
+  background-image: url('https://astra-slide.vercel.app/assets/img/new-2.jpeg');
   animation-delay: 5s;
 }
 
 .slide3 {
-  background-image: url('https://astra-slide.vercel.app/img/new-3.jpg');
+  background-image: url('https://astra-slide.vercel.app/assets/img/new-3.jpg');
   animation-delay: 10s;
 }
 
