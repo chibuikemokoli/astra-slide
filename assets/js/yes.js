@@ -57,9 +57,11 @@ function renderSimilarProducts(currentProduct) {
 }
 
 // Get current product ID from URL
+// NEW
 function getCurrentProductId() {
-    const params = new URLSearchParams(window.location.search);
-    return params.get('id');
+    const pathMatch = window.location.pathname.match(/\/product\/(.+)/);
+    if (pathMatch) return pathMatch[1];
+    return new URLSearchParams(window.location.search).get('id');
 }
 
 // ✅ FIXED: Initialize similar products on product-detail page
