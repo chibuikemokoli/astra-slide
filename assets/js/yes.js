@@ -34,7 +34,7 @@ function renderSimilarProducts(currentProduct) {
         const card = document.createElement('a');
         card.className = 'similar-product-card';
         // Use product.id for the link (matches your existing pattern)
-        card.href = `/shop/${product.id}`;
+        card.href = `/product/${product.id}`;
 
         card.innerHTML = `
       <img 
