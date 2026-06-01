@@ -184,3 +184,23 @@ function isValidEmail(email) {
         window.history.replaceState({}, document.title, url.pathname);
     }
 })();
+
+document.addEventListener('DOMContentLoaded', () => {
+    const wa = document.querySelector('.astra-wa-float');
+    if (!wa) return;
+
+    wa.classList.add('astra-wa-hidden');
+
+    setTimeout(() => {
+        wa.classList.remove('astra-wa-hidden');
+    }, 1200);
+
+    let shownOnce = false;
+
+    window.addEventListener('scroll', () => {
+        if (!shownOnce && window.scrollY > 120) {
+            wa.classList.remove('astra-wa-hidden');
+            shownOnce = true;
+        }
+    }, { passive: true });
+});
