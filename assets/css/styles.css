@@ -3143,6 +3143,7 @@ h3 {
 }
 
 .product-detail #detail-desc ul li {
+  letter-spacing: .01rem;
   padding-left: 1.2rem;
   margin-bottom: .4rem;
   font-size: .95rem;
