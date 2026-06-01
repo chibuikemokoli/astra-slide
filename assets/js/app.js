@@ -1,6 +1,7 @@
 let currentCategory = 'all';
 
 document.addEventListener('DOMContentLoaded', function () {
+    if (!document.getElementById('productsGrid')) return;
     renderCollections();
     renderProducts();
     populateProductDropdown();
@@ -81,6 +82,8 @@ function filterByCategory(categoryId, categoryName) {
 // Render products grid
 function renderProducts() {
     const productsGrid = document.getElementById('productsGrid');
+    if (!productsGrid) return;
+
     productsGrid.innerHTML = '';
 
     // Filter products
