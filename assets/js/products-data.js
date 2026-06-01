@@ -56,7 +56,7 @@ const productsData = {
         <div>
             <p>Heavy-duty anti-vortex pool drain designed for efficient bottom-water evacuation. Constructed from high-impact UV-resistant ABS plastic with a corrosion-resistant finish — built to perform safely beneath the water line for years.</p>
             <p>Available in:</p>
-            <div class="cities-grid">
+            <div class="cities-grid" style="margin-top: 1rem;">
                 <div class="city-pill" style="background-color: #EFF6FF;">150mm (Residential)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">200mm (Commercial)</div>
             </div>
