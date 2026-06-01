@@ -2736,7 +2736,7 @@ h3 {
 }
 
 .product-image:hover {
-  transition: ease .5s;
+  /* transition: ease .5s; */
   /* transform: scale(1.04); */
   border-radius: 1rem;
   border: 2px solid #888888;
