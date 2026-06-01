@@ -5,13 +5,13 @@ const productsData = {
             id: 'all',
             name: 'All Products',
             icon: '🏊',
-            description: 'Browse Astraslide\'s complete range of premium pool equipment. Everything you need for a world-class pool, in one place.'
+            description: 'Everything you need for a world-class pool, in one place.'
         },
         {
             id: 'fittings',
             name: 'Pool Fittings',
             icon: '🔧',
-            description: 'Precision-engineered pool fittings built from UV-resistant, corrosion-proof materials. The structural backbone of every great pool.'
+            description: 'Precision-engineered pool fittings built from UV-resistant, corrosion-proof materials.'
         },
         {
             id: 'pumps-filters',
@@ -29,19 +29,19 @@ const productsData = {
             id: 'lighting',
             name: 'Lighting & Water Features',
             icon: '💡',
-            description: 'Luminate your pool & Complete the experience with stunning stainless steel and acrylic waterfalls.'
+            description: 'Shed more light alongside our stunning stainless steel and acrylic waterfalls.'
         },
         {
             id: 'chemicals',
             name: 'Chemical & Water Treatment',
             icon: '⚗️',
-            description: 'Maintain safe, balanced water with our pool treatment equipments. Compatible with chlorine, bromine, and saltwater systems.'
+            description: 'Compatible with chlorine, bromine, and saltwater systems.'
         },
         {
             id: 'heating',
             name: 'Pool Heating',
             icon: '🌡️',
-            description: 'Precise digital thermostat control, seamless pipe integration, and models rated for residential, hotel, and spa installations.'
+            description: 'Models rated for residential, hotel, and spa installations.'
         },
     ],
 
