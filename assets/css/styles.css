@@ -2689,7 +2689,7 @@ h3 {
   background: var(--white);
   border-radius: 12px;
   /* padding: 2rem; */
-  box-shadow: var(--shadow);
+  /* box-shadow: var(--shadow); */
 }
 
 .products-header {
