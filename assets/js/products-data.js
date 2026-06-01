@@ -1089,4 +1089,7 @@ const productsData = {
     ]
 };
 
+if (typeof module !== 'undefined') {
+    module.exports = productsData;
+}
 window.productsData = productsData;
