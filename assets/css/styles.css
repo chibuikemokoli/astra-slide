@@ -5003,3 +5003,9 @@ textarea::-webkit-scrollbar-thumb {
     transform: translateY(0);
   }
 }
+
+#supper {
+  background: linear-gradient(rgb(193, 243, 94), rgb(57, 92, 5));
+  height: 1rem;
+  /* padding: 1px 0; */
+}
