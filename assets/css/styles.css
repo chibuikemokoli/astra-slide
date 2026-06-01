@@ -2500,7 +2500,7 @@ h3 {
   border-color: rgba(255, 255, 255, .18);
 }
 
-.social-btn svg {
+.social-btn svg, .footer-copy a svg {
   width: 16px;
   height: 16px;
   color: rgba(255, 255, 255, .6);
