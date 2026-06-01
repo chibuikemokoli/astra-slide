@@ -2688,7 +2688,7 @@ h3 {
 .products-section {
   background: var(--white);
   border-radius: 12px;
-  padding: 2rem;
+  /* padding: 2rem; */
   box-shadow: var(--shadow);
 }
 
@@ -4888,7 +4888,7 @@ textarea::-webkit-scrollbar-thumb {
 
 @media (max-width: 640px) {
   .products-section {
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
   }
 
   .products-header {
