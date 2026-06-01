@@ -5,43 +5,43 @@ const productsData = {
             id: 'all',
             name: 'All Products',
             icon: '🏊',
-            description: 'Browse Astraslide\'s complete range of premium pool equipment — from fittings and pumps to lighting, heating, and water treatment. Everything you need for a world-class pool, in one place.'
+            description: 'Browse Astraslide\'s complete range of premium pool equipment. Everything you need for a world-class pool, in one place.'
         },
         {
             id: 'fittings',
             name: 'Pool Fittings',
             icon: '🔧',
-            description: 'Precision-engineered pool fittings built from UV-resistant, corrosion-proof materials. Floor drains, flanges, skimmers, inlet nozzles, water bars, and regulators — the structural backbone of every great pool.'
+            description: 'Precision-engineered pool fittings built from UV-resistant, corrosion-proof materials. The structural backbone of every great pool.'
         },
         {
             id: 'pumps-filters',
             name: 'Pumps & Filtration',
             icon: '⚙️',
-            description: 'High-performance pool pumps and advanced filtration systems for crystal-clear, perfectly circulated water. Includes combo filter pumps, filter media, vacuum plates, and all associated accessories.'
+            description: 'High-performance pool pumps and advanced filtration systems for crystal-clear, perfectly circulated water.'
         },
         {
             id: 'cleaning',
             name: 'Cleaning Equipment',
             icon: '🧹',
-            description: 'Everything you need to keep your pool spotless — vacuum hoses, anodized vacuum heads, pool brushes, heavy-duty algae brushes, and leaf nets for a clean, inviting pool every day.'
+            description: 'Everything you need to keep your pool spotless!!'
         },
         {
             id: 'lighting',
             name: 'Lighting & Water Features',
             icon: '💡',
-            description: 'Transform your pool after dark with conduit lights, underwater LED bulbs, multi-eyed fountain lights, and pool light transformers. Complete the experience with stunning stainless steel and acrylic waterfalls.'
+            description: 'Luminate your pool & Complete the experience with stunning stainless steel and acrylic waterfalls.'
         },
         {
             id: 'chemicals',
             name: 'Chemical & Water Treatment',
             icon: '⚗️',
-            description: 'Maintain safe, balanced water with chlorine feeders, swimming pool floaters, and precision corner tiles that eliminate algae-prone debris traps. Compatible with chlorine, bromine, and saltwater systems.'
+            description: 'Maintain safe, balanced water with our pool treatment equipments. Compatible with chlorine, bromine, and saltwater systems.'
         },
         {
             id: 'heating',
             name: 'Pool Heating',
             icon: '🌡️',
-            description: 'Swim in comfort year-round with energy-efficient electric and heat pump pool heaters. Precise digital thermostat control, seamless pipe integration, and models rated for residential, hotel, and spa installations.'
+            description: 'Precise digital thermostat control, seamless pipe integration, and models rated for residential, hotel, and spa installations.'
         },
     ],
 
