@@ -56,13 +56,13 @@ const productsData = {
         <div>
             <p>Heavy-duty anti-vortex pool drain designed for efficient bottom-water evacuation. Constructed from high-impact UV-resistant ABS plastic with a corrosion-resistant finish — built to perform safely beneath the water line for years.</p>
             <p>Available in:</p>
-            <div class="cities-grid" style="margin-top: 1rem;">
+            <div class="cities-grid" style="margin-top: 1rem; margin-bottom: 1rem;">
                 <div class="city-pill" style="background-color: #EFF6FF;">150mm (Residential)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">200mm (Commercial)</div>
             </div>
-            <br>
+            
             <p>Finishes: White | Grey</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Anti-vortex design compliant with residential and commercial safety standards</li>
@@ -95,7 +95,7 @@ const productsData = {
                         <div class="city-pill" style="background-color: #EFF6FF;">2"</div>
                         <div class="city-pill" style="background-color: #EFF6FF;">2.5"</div>
                     </div>
-                    <br>
+                    
                     <p>Features:</p>
                     <ul>
                         <li>Creates a leak-proof seal at every pool wall penetration point</li>
@@ -126,7 +126,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">1.5" BSP</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">2" BSP</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Extended throat (~250mm) improves skimming efficiency by up to 30%</li>
@@ -157,7 +157,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">1.5"</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">2"</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>360° swivel eyeball nozzle for targeted return-water circulation</li>
@@ -213,7 +213,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">1.5" BSP</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">2" BSP</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Directional 360° swivel eyeball for optimised circulation</li>
@@ -244,7 +244,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">1.5" BSP</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">2" BSP</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Tilt-and-lock adjustment provides precise directional control of return water</li>
@@ -281,9 +281,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">1.5 HP</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">2 HP</div>
             </div>
-            <br>
+            
             <p>Configurations: Single-phase | Three-phase | Self-priming</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>High-efficiency motor with consistent flow rates of 8–35 m³/hr</li>
@@ -315,7 +315,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">0.5 HP</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">0.75 HP</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Complete pump-and-filter system — no separate plumbing required</li>
@@ -348,7 +348,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">14"</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">16"</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Pressure-tight EPDM O-ring gasket seal — no unfiltered water bypass</li>
@@ -379,9 +379,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Silica Sand (0.4–0.8mm)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Glass Bead Media (0.4–0.8mm)</div>
             </div>
-            <br>
+            
             <p>Sold in 25kg bags</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Glass media filters particles as small as 5 microns (sand: 20–40 microns)</li>
@@ -462,7 +462,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Standard Mesh</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Fine Mesh</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Fine-mesh captures hair, leaves, fibres, and coarse particles</li>
@@ -498,7 +498,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">9m</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">12m</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Kink-resistant ribbed PVC maintains suction at any bend angle</li>
@@ -529,7 +529,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">14" / 350mm (Standard)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">18" / 450mm (Commercial)</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Hard-anodised aluminium body — 3× more durable than plastic</li>
@@ -561,7 +561,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Combo (Nylon + Stainless)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Curved (Corners & Steps)</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Stiff nylon bristles remove algae and biofilm from any pool surface</li>
@@ -592,7 +592,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">18" Standard</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">24" Commercial</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Grade 304 stainless steel bristles power through heavy algae and staining</li>
@@ -623,9 +623,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Flat Skimmer Net</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Deep Bag Net</div>
             </div>
-            <br>
+            
             <p>Mesh options: Fine | Coarse</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Deep-bag (200mm) fine-mesh net holds debris without re-scattering</li>
@@ -659,7 +659,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Single Conduit</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Multi-Conduit</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Sealed conduit design — complete electrical isolation, no current leakage risk</li>
@@ -691,9 +691,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">50W</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">100W</div>
             </div>
-            <br>
+            
             <p>Colours: White | RGB Colour-Changing</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>IP68 waterproof — rated for permanent underwater installation</li>
@@ -725,7 +725,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">300VA (3–5 lights)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">600VA (Commercial)</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Steps 220V down to safe 12V AC — essential safety device</li>
@@ -757,9 +757,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">18W (≈150W halogen)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">35W (≈300W halogen)</div>
             </div>
-            <br>
+            
             <p>Colours: Cool White (6000K) | Warm White (3000K) | RGB</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Drop-in PAR56 2-pin replacement — fits existing light housings</li>
@@ -791,7 +791,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">White</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Blue</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Three-point LED array creates dramatic underwater colour spread</li>
@@ -823,7 +823,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">White</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Warm White</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Six-point LED array delivers wide, even colour coverage</li>
@@ -855,7 +855,7 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Cool White</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Warm White</div>
             </div>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Nine-point LED array delivers maximum colour saturation</li>
@@ -888,9 +888,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">900mm</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">1200mm</div>
             </div>
-            <br>
+            
             <p>Finishes: Mirror Polished | Brushed | With or without integrated LED</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Precision knife-edge spout produces a glass-smooth laminar water sheet</li>
@@ -922,9 +922,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">600mm</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">900mm</div>
             </div>
-            <br>
+            
             <p>Acrylic options: Clear | Blue Tint | Bronze Tint | With or without LED</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Crystal-clear acrylic face allows LED light to pass through the water curtain</li>
@@ -958,9 +958,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Offline (Stand-alone)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">In-line (Pipe-connected)</div>
             </div>
-            <br>
+            
             <p>Capacities: 1.5kg | 3kg tablet capacity</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Dial-controlled dosing rate for precise chemical concentration management</li>
@@ -991,9 +991,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Standard (3" tablets)</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Mini (1" tablets)</div>
             </div>
-            <br>
+            
             <p>Colours: White | Blue | Yellow</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Rotary dial vent adjustment (6 settings) for precise chemical release control</li>
@@ -1025,10 +1025,10 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">External 45°</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">External 90°</div>
             </div>
-            <br>
+            
             <p>Sizes: 10cm × 10cm | 20cm × 20cm</p>
             <p>Colours: White | Light Blue | Custom Glazed</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Coved radius profile (R=20mm) eliminates dirt traps at floor-wall junctions</li>
@@ -1066,9 +1066,9 @@ const productsData = {
                 <div class="city-pill" style="background-color: #EFF6FF;">Heat Pump 10kW</div>
                 <div class="city-pill" style="background-color: #EFF6FF;">Heat Pump 15kW</div>
             </div>
-            <br>
+            
             <p>Heat exchanger options: Titanium (saltwater) | Stainless Steel (freshwater)</p>
-            <br>
+            
             <p>Features:</p>
             <ul>
                 <li>Precise digital thermostat — temperature control to ±1°C (range: 15°C – 40°C)</li>
