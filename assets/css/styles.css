@@ -5005,7 +5005,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 #supper {
-  background: linear-gradient(rgb(106, 94, 243), rgb(5, 15, 92));
+  background: linear-gradient(var(--astra-blue), var(--astra-bluer));
   height: 1rem;
   /* padding: 1px 0; */
 }
