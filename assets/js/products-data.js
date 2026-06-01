@@ -68,8 +68,6 @@ const productsData = {
                 <li>Anti-vortex design compliant with residential and commercial safety standards</li>
                 <li>Flush-mount installation into concrete or fibreglass pool floors</li>
                 <li>Compatible with both skimmer and overflow pool systems</li>
-                <li>High-flow grate design for optimal water circulation and debris capture</li>
-                <li>Flow rate up to 15 m³/hr | Max depth: 3m</li>
             </ul>
         </div>
         `,
