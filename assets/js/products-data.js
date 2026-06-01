@@ -78,6 +78,7 @@ const productsData = {
             image: 'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             images: [
                 'https://astra-slide.vercel.app/assets/products/MDC-2.jpg',
+                'https://astra-slide.vercel.app/assets/products/MDC.jpg',
             ],
             features: ['Anti-vortex safety design', 'Flush-mount installation', 'UV-resistant ABS']
         },
