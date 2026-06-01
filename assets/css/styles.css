@@ -5080,7 +5080,8 @@ textarea::-webkit-scrollbar-thumb {
 
 .astra-wa-tooltip {
   position: absolute;
-  left: 72px;
+  right: 72px;
+  left: auto;
   bottom: 12px;
   background: #0f172a;
   color: #ffffff;
@@ -5099,7 +5100,8 @@ textarea::-webkit-scrollbar-thumb {
 .astra-wa-tooltip::before {
   content: "";
   position: absolute;
-  left: -5px;
+  right: -5px;
+  left: auto;
   top: 50%;
   width: 10px;
   height: 10px;
