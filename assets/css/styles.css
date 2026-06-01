@@ -2954,8 +2954,9 @@ h3 {
   justify-content: center;
 }
 
-.share-btn i {
+.share-btn svg {
   margin-right: 8px;
+  width: 33%;
 }
 
 .share-btn:hover {
