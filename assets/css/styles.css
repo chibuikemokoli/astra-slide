@@ -2732,11 +2732,12 @@ h3 {
   object-fit: contain;
   transition: ease .5s;
   border: 1px solid #cac4c4;
+  overflow: hidden;
 }
 
 .product-image:hover {
   transition: ease .5s;
-  transform: scale(1.04);
+  /* transform: scale(1.04); */
   border-radius: 1rem;
 }
 
