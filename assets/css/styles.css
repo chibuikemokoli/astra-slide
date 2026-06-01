@@ -5005,7 +5005,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 #supper {
-  background: linear-gradient(rgb(193, 243, 94), rgb(57, 92, 5));
+  background: linear-gradient(rgb(106, 94, 243), rgb(5, 15, 92));
   height: 1rem;
   /* padding: 1px 0; */
 }
