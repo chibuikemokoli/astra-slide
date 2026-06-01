@@ -5016,7 +5016,8 @@ textarea::-webkit-scrollbar-thumb {
 
 .astra-wa-float {
   position: fixed;
-  left: 18px;
+  right: 18px;
+  left: auto;
   bottom: 18px;
   width: 60px;
   height: 60px;
