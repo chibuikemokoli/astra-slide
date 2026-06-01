@@ -2739,7 +2739,7 @@ h3 {
   transition: ease .5s;
   /* transform: scale(1.04); */
   border-radius: 1rem;
-  border: 1px solid #b0abab;
+  border: 1px solid #888888;
 }
 
 .product-info {
