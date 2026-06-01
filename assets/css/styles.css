@@ -2730,7 +2730,7 @@ h3 {
   /* height: 240px; */
   border-radius: 1rem;
   object-fit: contain;
-  transition: ease .5s;
+  /* transition: ease .5s; */
   border: 1px solid #cac4c4;
   overflow: hidden;
 }
