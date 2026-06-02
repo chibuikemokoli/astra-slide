@@ -2733,7 +2733,7 @@ h3 {
 
 .product-image {
   width: 100%;
-  /* height: 240px; */
+  height: 240px;
   border-radius: 1rem;
   object-fit: contain;
   /* transition: ease .5s; */
@@ -4881,7 +4881,7 @@ textarea::-webkit-scrollbar-thumb {
   }
 
   .product-image {
-    /* height: 200px; */
+    height: 200px;
   }
 
   .quote-btn {
